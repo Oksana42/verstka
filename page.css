@@ -1,32 +1,39 @@
 html,
 body {
-    margin: 10px;
-    padding: 10px;
-    font-size: 100%;
     font-family: "Barlow";
     background-color: #EFF6FF;
-}
-
-.right-form {
-    font-size: 10px;
-
+    margin: 5px;
+    padding: 5px;
 }
 
 .left-img {
     float: left;
-    margin-left: 72px;
-    padding-left: 20px;
-
-
+    overflow: hidden;
+    width: 450px;
+    padding: 50px;
 }
+
 
 .right-form {
-    margin-right: 72px;
-    padding: 20px;
-    float: right;
-    background-color: #FFFFFF ;
+    background: #FFFFFF;
+    color: #2A4A5C;
+    font-size: 10px;
+    margin: 50px;
+    padding: 90px;
+
 
 }
 
+.btn-facebook {
+    background: #255A9B;
+    color: #FFFFFF;
+}
 
+.btn-linkedin {
+    background: #0076B6;
+    color: #FFFFFF;
+}
 
+#submit {
+    background: #3698FB;
+}
