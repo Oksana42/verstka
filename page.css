@@ -1,10 +1,20 @@
+@font-face {
+    font-family: "Barlow-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local(Barlow),
+    url("barlow/Barlow-Regular.otf") format("woff");
+}
+
 html,
 body {
-    font-family: "Barlow";
+    font-family: "Barlow-Regular", serif;
     background-color: #EFF6FF;
     margin: 5px;
     padding: 5px;
+    color: #2A4A5C;
 }
+
 
 .left-img {
     float: left;
@@ -16,10 +26,9 @@ body {
 
 .right-form {
     background: #FFFFFF;
-    color: #2A4A5C;
-    font-size: 10px;
+    font-size: 8px;
     margin: 50px;
-    padding: 90px;
+    padding: 65px;
 
 
 }
@@ -27,13 +36,95 @@ body {
 .btn-facebook {
     background: #255A9B;
     color: #FFFFFF;
+    height: 30px;
+    width: 143px;
+    text-align: center;
+    font-size: 9px;
+    margin-right: 17px;
+}
+
+.img-facebook {
+    margin-right: 10px;
+
 }
 
 .btn-linkedin {
     background: #0076B6;
     color: #FFFFFF;
+    margin-bottom: 40px;
+    height: 30px;
+    width: 143px;
+    font-size: 9px;
+
 }
 
-#submit {
-    background: #3698FB;
+.img-linkedin {
+    margin-right: 10px;
 }
+
+#email {
+    height: 20px;
+    margin-right: 15px;
+    padding: 5px;
+    width: 130px;
+    color: #96A5B1;
+
+
+}
+
+#tel {
+    margin-bottom: 15px;
+    height: 20px;
+    padding: 5px;
+    width: 130px;
+    color: #96A5B1;
+}
+
+#radio4 {
+    margin-bottom: 15px;
+
+}
+
+#text {
+    resize: none;
+    margin-bottom: 50px;
+    padding-top: 4px;
+    font-size: 8px;
+    color: #96A5B1;
+    border-color: #EEEEEE;
+
+}
+
+
+.lb-checkbox {
+margin-bottom: 5px;
+
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 150px;
+    height: 25px;
+    margin: 0 5px;
+    padding: 5px 15px;
+    color: #ffffff;
+    background-color: #3698FB;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.regisr {
+    font-size: 10px;
+    margin-bottom: 24px;
+    color: #96A5B1;
+}
+
+.select {
+    color: #96A5B1;
+}
+
+
+span {
+    color: #3698FB;
+}
+
