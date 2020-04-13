@@ -9,46 +9,67 @@
 <div class="left-img">
     <img width="440" height="570" src="image/bg.jpg" alt="into">
 </div>
-<div class="right-form">
-    <form>
+<form>
+    <div class="right-form">
+
         <h1>Get iintoo it today</h1>
         <p class="regisr">There is no charge or obligation upon registration</p>
-        <button class="btn-facebook" type="submit"><img class="img-facebook"
-                                                        src="image/ f.svg" width="13" height="12">Register with Facebook
-        </button>
-        <button class="btn-linkedin" type="submit"><img class="img-linkedin"
-                                                        src="image/in.svg" width="13" height="12">Register with Linkedin
-        </button>
-        <input type="email" id="email" name="email" value="Email" required>
-        <input type="tel" id="tel" name="tel" value="Phone" required>
+
+        <div class="facebook">
+            <button class="btn-facebook" type="submit"><img class="img-facebook"
+                                                            src="image/ f.svg" width="13" height="12">Register with
+                Facebook
+            </button>
+        </div>
+        <div class="linkedin">
+            <button class="btn-linkedin" type="submit"><img class="img-linkedin"
+                                                            src="image/in.svg" width="13" height="12">Register with
+                Linkedin
+            </button>
+        </div>
+
+        <div class="div-email">
+            <input type="email" class="email" name="email" value="Email" placeholder="gus.goodwin@gmail.com">
+        </div>
+        <div class="div-tel">
+            <input type="tel" class="" "tel" name="tel" value="Phone" required>
+        </div>
+
         <h2><strong>What type of investor are you?</strong></h2>
         <p class="select">Select the type of investor you are below.</p>
-        <br>
-        <label>
-            <input type="radio" value="individual" id="radio1" checked>
-            individual
-        </label>
-        <label>
-            <input type="radio" value="Business" id="radio2">
-            Business
-        </label>
-        <label>
-            <input type="radio" value="IRA" id="radio3">
-            IRA
-        </label>
-        <label>
-            <input type="radio" value="Trust" id="radio4">
-            Trust
-        </label>
+
+        <div class="element-radio">
+            <input type="radio" class="radio" name="radio" id="radio-1" checked>
+            <label for="radio-1">individual</label>
+        </div>
+        <div class="element-radio">
+            <input type="radio" class="radio" name="radio" id="radio-2">
+            <label for="radio-2">Business</label>
+        </div>
+        <div class="element-radio">
+            <input type="radio" class="radio" name="radio" id="radio-3">
+            <label for="radio-3">IRA</label>
+        </div>
+        <div class="element-radio">
+            <input type="radio" class="radio" name="radio" id="radio-4">
+            <label for="radio-4">Trust</label>
+        </div>
+
+        <div>
         <textarea name="text" id="text" rows="4" cols="34">I am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
           </textarea>
+        </div>
 
-        <label class="lb-checkbox">
-            <input type="checkbox" id="checkbox"> i agree to the terms and receiving notification from iintoo <span><u>View full terms</u>></span>
-        </label>
-
+        <div class="element-checkbox">
+            <input type="checkbox" class="checkbox" name="checkbox" id="checkbox-1">
+            <label for="checkbox-1" class="lb-checkbox"> i agree to the terms and receiving
+                notification from
+                iintoo <span><u>View full terms</u>></span>
+            </label>
+        </div>
         <input type="submit" value="Create Account" id="submit">
-    </form>
-</div>
+    </div>
+    </div>
+</form>
 </body>
 </html>
