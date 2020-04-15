@@ -13,38 +13,35 @@ body {
     margin: 5px;
     padding: 5px;
     color: #2A4A5C;
+
 }
 
 
 .left-img {
     float: left;
     overflow: hidden;
-    width: 450px;
+    width: 440px;
     padding: 50px;
+
 }
 
 
 .right-form {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     font-size: 8px;
     margin: 50px;
-    padding: 58px;
+    padding: 52px;
 
 
-}
-
-.facebook,
-.linkedin {
-    display: inline-block;
 }
 
 
 .btn-facebook {
-    background: #255A9B;
+    background-color: #255A9B;
     color: #FFFFFF;
     height: 30px;
     width: 143px;
-    text-align: center;
+    text-align: left;
     font-size: 9px;
     margin-right: 17px;
     border: #255A9B;
@@ -53,13 +50,12 @@ body {
 .img-facebook,
 .img-linkedin{
     margin-right: 10px;
-
 }
 
 .btn-linkedin {
-    background: #0076B6;
+    background-color: #0076B6;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     height: 30px;
     width: 143px;
     font-size: 9px;
@@ -68,31 +64,28 @@ body {
 }
 
 
-
-.div-email,
-.div-tel {
-    display: inline-block;
-}
-
 .email {
-    height: 30px;
+
+    height: 25px;
+    width: 130px;
     margin-right: 15px;
     padding: 5px;
-    width: 130px;
     color: #96A5B1;
+    border-left: 1px solid #3698FB;
 
 
 }
 
 .tel {
     margin-bottom: 17px;
-    height: 20px;
-    padding: 5px;
+    height: 25px;
     width: 130px;
+    padding: 5px;
     color: #96A5B1;
+
 }
 
-#text {
+.text {
     resize: none;
     margin-bottom: 25px;
     padding-top: 4px;
@@ -118,6 +111,10 @@ input[type="submit"] {
     background-color: #3698FB;
     border-radius: 4px;
     border: 0px;
+}
+
+.submit {
+    font-size: 9px;
 }
 
 .regisr {
@@ -187,10 +184,10 @@ span {
 }
 
 
-
 .element-checkbox {
     display: inline-block;
     margin-bottom: 40px;
+    color: #96A5B1;
 }
 
 .checkbox {
@@ -236,7 +233,6 @@ span {
 .checkbox:checked + label::after {
     opacity: 1;
 }
-
 
 
 
