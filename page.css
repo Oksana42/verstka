@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: local(Barlow),
-    url("barlow/Barlow-Regular.otf") format("woff");
+    url("font/barlow 2/Barlow-Regular.otf") format("woff");
 }
 
 html,
@@ -30,7 +30,7 @@ body {
     background-color: #FFFFFF;
     font-size: 8px;
     margin: 55px;
-    padding: 63px;
+    padding: 64px;
 
 }
 
@@ -241,9 +241,5 @@ span {
    height: 4px;
     width: 4px;
 }
-
-
-
-
 
 
