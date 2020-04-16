@@ -10,8 +10,8 @@ html,
 body {
     font-family: "Barlow-Regular", serif;
     background-color: #EFF6FF;
-    margin: 5px;
-    padding: 5px;
+    margin: 25px;
+    padding: 3px;
     color: #2A4A5C;
 
 }
@@ -20,8 +20,8 @@ body {
 .left-img {
     float: left;
     overflow: hidden;
-    width: 440px;
-    padding: 50px;
+    width: 430px;
+    padding: 55px;
 
 }
 
@@ -29,9 +29,8 @@ body {
 .right-form {
     background-color: #FFFFFF;
     font-size: 8px;
-    margin: 50px;
-    padding: 52px;
-
+    margin: 55px;
+    padding: 63px;
 
 }
 
@@ -102,7 +101,7 @@ body {
 }
 
 input[type="submit"] {
-    display: inline-block;
+    display: block;
     width: 150px;
     height: 25px;
     margin: 0 1px;
@@ -159,22 +158,22 @@ span {
     position: absolute;
     top: -1px;
     left: 0;
-    width: 13px;
-    height: 13px;
-
+    width: 11px;
+    height: 11px;
     border-radius: 50%;
-    background: #3698FB;
+    background: #EEEEEE;
 }
 
 .radio + label::after {
     content: '';
     position: absolute;
-    top: 3px;
-    left: 4px;
-    width: 5px;
-    height: 5px;
+    top: 1px;
+    left: 2px;
+
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    background: white;
+    background: #FFFFFF;
     opacity: 0;
     transition: .2s;
 }
@@ -183,6 +182,9 @@ span {
     opacity: 1;
 }
 
+.radio:focus + label:before {
+    box-shadow: 0 0 0 3px rgb(0, 128, 255);
+}
 
 .element-checkbox {
     display: inline-block;
@@ -222,7 +224,7 @@ span {
 
     opacity: 0;
     height: 2px;
-    width: 3px;
+    width: 2px;
     border-left: 1px solid;
     border-bottom: 1px solid;
 
@@ -234,7 +236,11 @@ span {
     opacity: 1;
 }
 
-
+.checkbox:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 128, 255);
+   height: 4px;
+    width: 4px;
+}
 
 
 
