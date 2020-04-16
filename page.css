@@ -10,8 +10,8 @@ html,
 body {
     font-family: "Barlow-Regular", serif;
     background-color: #EFF6FF;
-    margin: 25px;
-    padding: 3px;
+    margin: 15px;
+    padding: 2px;
     color: #2A4A5C;
 
 }
@@ -20,7 +20,7 @@ body {
 .left-img {
     float: left;
     overflow: hidden;
-    width: 430px;
+    width: 465px;
     padding: 55px;
 
 }
