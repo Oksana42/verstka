@@ -25,7 +25,7 @@ body {
 .menu {
     width: 320px;
     height: 88px;
-
+    background: #FFFFFF;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -76,9 +76,7 @@ body {
 button {
     position: relative;
     background: #FFFFFF;
-    border: 2px solid #B8FFEC;
-    box-sizing: border-box;
-    border-radius: 6px;
+
     text-align: left;
     padding-left: 16.54px;
     color: #7E7E82;
@@ -91,9 +89,13 @@ button {
     margin-left: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
+    border: 2px solid #B8FFEC;
+    box-sizing: border-box;
+    border-radius: 6px;
 }
 
 .btn_services {
+    
     width: 258px;
     height: 40px;
     line-height: 24px;
@@ -116,17 +118,21 @@ button {
 
 .ic_fu {
     display: flex;
-
+    margin: auto;
+    justify-content: space-between;
 }
 
 .img_icon {
-    float: left;
-    margin: 10px;
-    height: 10.29px;
-    width: 7.41px;
+    /*float: left;*/
+    /*margin: 10px;*/
+    /*height: 10.29px;*/
+    /*width: 7.41px;*/
+    margin: auto;
+
 }
 
 .further {
 
+    margin: auto;
 }
 
