@@ -25,14 +25,19 @@ body {
 .menu {
     width: 320px;
     height: 88px;
-    left: 0px;
-    top: 0px;
+
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .icon {
-    left: 5%;
-    right: 82.5%;
-    top: 4.02%;
+    margin: auto;
+}
+
+.img_Group,
+.img_divider{
+    margin: auto;
 }
 
 .content {
@@ -41,7 +46,11 @@ body {
     left: 0px;
     top: 88px;
     background: #F8F8F8;
+
+    margin: auto;
 }
+
+
 
 .top_block {
     display: inline-flex;
@@ -92,7 +101,6 @@ button {
 
     /*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
-
 }
 
 .text {
@@ -106,8 +114,16 @@ button {
 }
 
 
+.ic_fu {
+    display: flex;
+
+}
+
 .img_icon {
-    display: inline-flex;
+    float: left;
+    margin: 10px;
+    height: 10.29px;
+    width: 7.41px;
 }
 
 .further {
